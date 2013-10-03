@@ -1,0 +1,69 @@
+/*
+ * Metro UI CSS
+ * (c) 2012-2013 by Sergey Pimenov
+ * Licensed under the MIT License and Commercial
+ *
+ * Life Project Style
+ *
+ */
+
+body{
+  width:100%;
+  height:100%;
+  background: lawngreen;
+}
+
+body>div{
+  width:100%;
+  position: fixed;
+  overflow: hidden;
+}
+body>div.list{
+  top:40px;
+  overflow-y: auto;
+}
+body>div.foot{
+  left:0;
+  bottom:0;
+}
+.nav-bar{
+    text-align: center;
+}
+.toolbar-group{
+  text-align: center;
+}
+.toolbar-group button{
+  width:30%;
+}
+
+.metrouicss ul:nth-child(1){
+  margin-left:0;
+}
+.ios7{
+  background-color: rgba(255,255,255,0.3) !important;
+  border-radius: 5px !important;
+}
+
+.metrouicss .listview li{
+  padding-bottom:0;
+  width:95%;
+  margin:10px;
+  padding:10px;
+  .ios7;
+}
+
+button{
+  .ios7;
+}
+
+.metrouicss .listview li:hover{
+  outline:none;
+  opacity: 0.9
+}
+.metrouicss .listview li .icon {
+  float:right;
+}
+
+.metrouicss .listview li .data{
+  margin-left:0;
+}
